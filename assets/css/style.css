@@ -11,13 +11,9 @@ header {
   width: 100%;
   height: 50px;
   background-color: #ffffff;
-  border-color: #cccccc;
+  border-bottom: 2px solid #cccccc;
   border-width: 0px 0px 1px 0px;
   z-index: 2;
-}
-
-#myheader {
-
 }
 
 #name {
@@ -28,11 +24,11 @@ header {
   font-size: 30px;
   color: white;
   background-color: #4aaaa5;
-  padding: 10px 10px 7px 10px;
+  padding: 10px 10px 6px 10px;
   font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
-a {
+.headerlinks {
   color: #777777;
   float: right;
   padding: 10px 10px 10px 0px;
@@ -47,7 +43,6 @@ h1 {
 .aboutme,
 .contact,
 .portfolio {
-  clear: both;
   background-color: #ffffff;
   border-color: #dddddd;
   border-width: 1px;
@@ -56,7 +51,12 @@ h1 {
   margin: 10%;
 }
 
+.portfolio {
+  padding: 10px 10px 300px 10px;
+}
+
 .section {
+  clear: both;
   width: 960px;
   z-index: 1;
 }
@@ -64,6 +64,12 @@ h1 {
 .cow {
   padding: 10px;
   float: left;
+}
+
+.portfoliopics {
+  float: left;
+  padding: 10px;
+  box-align: center;
 }
 
 #em,
@@ -77,11 +83,11 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 25px;
+  height: 30px;
   text-align: center;
   clear: both;
   background-color: #666666;
-  border-color: #4aaaa5;
+  border-top: 5px solid #4aaaa5;
   color: #777777;
   z-index: 2;
 }
